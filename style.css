@@ -1,0 +1,70 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e3f2fd ;
+}
+.container{
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    position:relative;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 370px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+}
+h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header,
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 48px;
+    margin-right: 10px;
+}
+
+header .chip{
+    width: 60px;
+
+}
+h6{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+h5.number{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+h5.name{
+    margin-top: 20px;
+}
+
+.container .card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+}
